@@ -1,0 +1,33 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.counter {
+  font-size: 10rem;
+}
+
+.btnBox {
+  margin-top: 3rem;
+}
+
+.btn {
+  color: #eee;
+  width: 16rem;
+  height: 8rem;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+}
+
+.plusBtn {
+  background-color: red;
+}
+
+.minusBtn {
+  background-color: blue;
+  margin-left: 5rem;
+}
